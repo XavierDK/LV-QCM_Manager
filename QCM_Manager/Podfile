@@ -1,0 +1,22 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'QCM_Manager' do
+
+pod 'Parse'
+pod 'ParseUI'
+pod 'RxSwift', '~> 2.0.0-beta'
+pod 'RxCocoa', '~> 2.0.0-beta'
+pod 'RxBlocking', '~> 2.0.0-beta'
+pod 'Typhoon'
+
+end
+
+target 'QCM_ManagerTests' do
+
+end
+
+target 'QCM_ManagerUITests' do
+
+end
+
