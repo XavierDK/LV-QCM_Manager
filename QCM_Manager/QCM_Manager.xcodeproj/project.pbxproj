@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251E59461C26CDB100EB40CA /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251E59451C26CDB100EB40CA /* LabelCell.swift */; };
+		251E59481C26DA0700EB40CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251E59471C26DA0700EB40CA /* ViewController.swift */; };
+		251E594B1C2725D200EB40CA /* QCMRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251E594A1C2725D200EB40CA /* QCMRouter.swift */; };
+		251E594E1C27268800EB40CA /* QCMMenuViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251E594D1C27268800EB40CA /* QCMMenuViewer.swift */; };
+		25B56ABE1C2571DE0034FB0A /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B56ABD1C2571DE0034FB0A /* Account.swift */; };
+		25B56AC61C2574DF0034FB0A /* AccountMenuViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B56AC51C2574DF0034FB0A /* AccountMenuViewer.swift */; };
+		25E7E7351C257D75006D0B5C /* AccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E7E7341C257D75006D0B5C /* AccountRouter.swift */; };
+		25E7E7371C257DA0006D0B5C /* ParseAccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E7E7361C257DA0006D0B5C /* ParseAccountRouter.swift */; };
+		25E7E7391C257E18006D0B5C /* AccountConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E7E7381C257E18006D0B5C /* AccountConfiguration.swift */; };
+		25E7E73B1C258D55006D0B5C /* ParseAccountLogInViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E7E73A1C258D55006D0B5C /* ParseAccountLogInViewer.swift */; };
+		25E7E73D1C258D6C006D0B5C /* ParseAccountSignUpViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E7E73C1C258D6C006D0B5C /* ParseAccountSignUpViewer.swift */; };
+		25E7E73F1C2593B9006D0B5C /* ParseAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E7E73E1C2593B9006D0B5C /* ParseAccount.swift */; };
+		25FBF20F1C1C538D001C28A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBF20E1C1C538D001C28A2 /* AppDelegate.swift */; };
+		25FBF2161C1C538D001C28A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FBF2141C1C538D001C28A2 /* Main.storyboard */; };
+		25FBF2181C1C538D001C28A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FBF2171C1C538D001C28A2 /* Assets.xcassets */; };
+		25FBF21B1C1C538D001C28A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FBF2191C1C538D001C28A2 /* LaunchScreen.storyboard */; };
+		25FBF2261C1C538D001C28A2 /* QCM_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBF2251C1C538D001C28A2 /* QCM_ManagerTests.swift */; };
+		25FBF2311C1C538E001C28A2 /* QCM_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBF2301C1C538E001C28A2 /* QCM_ManagerUITests.swift */; };
+		895EB3017C4A5AC358AA7E46 /* Pods_QCM_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B563A8C72FF16C86F2C850D6 /* Pods_QCM_Manager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25FBF2221C1C538D001C28A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25FBF2031C1C538D001C28A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25FBF20A1C1C538D001C28A2;
+			remoteInfo = QCM_Manager;
+		};
+		25FBF22D1C1C538E001C28A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25FBF2031C1C538D001C28A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25FBF20A1C1C538D001C28A2;
+			remoteInfo = QCM_Manager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		251E59451C26CDB100EB40CA /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelCell.swift; path = Common/LabelCell.swift; sourceTree = "<group>"; };
+		251E59471C26DA0700EB40CA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Common/ViewController.swift; sourceTree = "<group>"; };
+		251E594A1C2725D200EB40CA /* QCMRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QCMRouter.swift; path = QCM/QCMRouter.swift; sourceTree = "<group>"; };
+		251E594D1C27268800EB40CA /* QCMMenuViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QCMMenuViewer.swift; path = QCM/QCMMenuViewer.swift; sourceTree = "<group>"; };
+		25B56ABD1C2571DE0034FB0A /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Account.swift; path = Account/Account.swift; sourceTree = "<group>"; };
+		25B56AC51C2574DF0034FB0A /* AccountMenuViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountMenuViewer.swift; path = Account/AccountMenuViewer.swift; sourceTree = "<group>"; };
+		25E7E7341C257D75006D0B5C /* AccountRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountRouter.swift; path = Account/AccountRouter.swift; sourceTree = "<group>"; };
+		25E7E7361C257DA0006D0B5C /* ParseAccountRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParseAccountRouter.swift; path = Account/ParseAccountRouter.swift; sourceTree = "<group>"; };
+		25E7E7381C257E18006D0B5C /* AccountConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountConfiguration.swift; path = Account/AccountConfiguration.swift; sourceTree = "<group>"; };
+		25E7E73A1C258D55006D0B5C /* ParseAccountLogInViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParseAccountLogInViewer.swift; path = Account/ParseAccountLogInViewer.swift; sourceTree = "<group>"; };
+		25E7E73C1C258D6C006D0B5C /* ParseAccountSignUpViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParseAccountSignUpViewer.swift; path = Account/ParseAccountSignUpViewer.swift; sourceTree = "<group>"; };
+		25E7E73E1C2593B9006D0B5C /* ParseAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParseAccount.swift; path = Account/ParseAccount.swift; sourceTree = "<group>"; };
+		25FBF20B1C1C538D001C28A2 /* QCM_Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCM_Manager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FBF20E1C1C538D001C28A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25FBF2151C1C538D001C28A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25FBF2171C1C538D001C28A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25FBF21A1C1C538D001C28A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25FBF21C1C1C538D001C28A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FBF2211C1C538D001C28A2 /* QCM_ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCM_ManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FBF2251C1C538D001C28A2 /* QCM_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCM_ManagerTests.swift; sourceTree = "<group>"; };
+		25FBF2271C1C538D001C28A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FBF22C1C1C538E001C28A2 /* QCM_ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCM_ManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FBF2301C1C538E001C28A2 /* QCM_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCM_ManagerUITests.swift; sourceTree = "<group>"; };
+		25FBF2321C1C538E001C28A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CAABD2B87E1016BC1EA61A3 /* Pods-QCM_Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCM_Manager.release.xcconfig"; path = "Pods/Target Support Files/Pods-QCM_Manager/Pods-QCM_Manager.release.xcconfig"; sourceTree = "<group>"; };
+		6D23B1F0E5070398A97DE45F /* Pods-QCM_Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCM_Manager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QCM_Manager/Pods-QCM_Manager.debug.xcconfig"; sourceTree = "<group>"; };
+		B563A8C72FF16C86F2C850D6 /* Pods_QCM_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QCM_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25FBF2081C1C538D001C28A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895EB3017C4A5AC358AA7E46 /* Pods_QCM_Manager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FBF21E1C1C538D001C28A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FBF2291C1C538E001C28A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251E59401C26CD1200EB40CA /* QCM */ = {
+			isa = PBXGroup;
+			children = (
+				251E594C1C27266700EB40CA /* Viewers */,
+				251E59491C2725B300EB40CA /* Router */,
+			);
+			name = QCM;
+			sourceTree = "<group>";
+		};
+		251E59431C26CD3100EB40CA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				251E59441C26CD7900EB40CA /* Cells */,
+				251E59471C26DA0700EB40CA /* ViewController.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		251E59441C26CD7900EB40CA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				251E59451C26CDB100EB40CA /* LabelCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		251E59491C2725B300EB40CA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				251E594A1C2725D200EB40CA /* QCMRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		251E594C1C27266700EB40CA /* Viewers */ = {
+			isa = PBXGroup;
+			children = (
+				251E594D1C27268800EB40CA /* QCMMenuViewer.swift */,
+			);
+			name = Viewers;
+			sourceTree = "<group>";
+		};
+		25B56AB81C2571960034FB0A /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				25E7E7331C257BCF006D0B5C /* Router */,
+				25B56AC41C2573770034FB0A /* Entities */,
+				25B56AC31C2573620034FB0A /* Viewers */,
+				25E7E7381C257E18006D0B5C /* AccountConfiguration.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		25B56AC31C2573620034FB0A /* Viewers */ = {
+			isa = PBXGroup;
+			children = (
+				25B56AC51C2574DF0034FB0A /* AccountMenuViewer.swift */,
+				25E7E73A1C258D55006D0B5C /* ParseAccountLogInViewer.swift */,
+				25E7E73C1C258D6C006D0B5C /* ParseAccountSignUpViewer.swift */,
+			);
+			name = Viewers;
+			sourceTree = "<group>";
+		};
+		25B56AC41C2573770034FB0A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				25B56ABD1C2571DE0034FB0A /* Account.swift */,
+				25E7E73E1C2593B9006D0B5C /* ParseAccount.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		25E7E7331C257BCF006D0B5C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				25E7E7341C257D75006D0B5C /* AccountRouter.swift */,
+				25E7E7361C257DA0006D0B5C /* ParseAccountRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		25FBF2021C1C538D001C28A2 = {
+			isa = PBXGroup;
+			children = (
+				25FBF20D1C1C538D001C28A2 /* QCM_Manager */,
+				25FBF2241C1C538D001C28A2 /* QCM_ManagerTests */,
+				25FBF22F1C1C538E001C28A2 /* QCM_ManagerUITests */,
+				25FBF20C1C1C538D001C28A2 /* Products */,
+				2C17FA4D8BA592786DBB2435 /* Pods */,
+				9C2854EDCD45377A38011122 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25FBF20C1C1C538D001C28A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25FBF20B1C1C538D001C28A2 /* QCM_Manager.app */,
+				25FBF2211C1C538D001C28A2 /* QCM_ManagerTests.xctest */,
+				25FBF22C1C1C538E001C28A2 /* QCM_ManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25FBF20D1C1C538D001C28A2 /* QCM_Manager */ = {
+			isa = PBXGroup;
+			children = (
+				251E59431C26CD3100EB40CA /* Common */,
+				251E59401C26CD1200EB40CA /* QCM */,
+				25B56AB81C2571960034FB0A /* Account */,
+				25FBF20E1C1C538D001C28A2 /* AppDelegate.swift */,
+				25FBF2141C1C538D001C28A2 /* Main.storyboard */,
+				25FBF2171C1C538D001C28A2 /* Assets.xcassets */,
+				25FBF2191C1C538D001C28A2 /* LaunchScreen.storyboard */,
+				25FBF21C1C1C538D001C28A2 /* Info.plist */,
+			);
+			path = QCM_Manager;
+			sourceTree = "<group>";
+		};
+		25FBF2241C1C538D001C28A2 /* QCM_ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				25FBF2251C1C538D001C28A2 /* QCM_ManagerTests.swift */,
+				25FBF2271C1C538D001C28A2 /* Info.plist */,
+			);
+			path = QCM_ManagerTests;
+			sourceTree = "<group>";
+		};
+		25FBF22F1C1C538E001C28A2 /* QCM_ManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25FBF2301C1C538E001C28A2 /* QCM_ManagerUITests.swift */,
+				25FBF2321C1C538E001C28A2 /* Info.plist */,
+			);
+			path = QCM_ManagerUITests;
+			sourceTree = "<group>";
+		};
+		2C17FA4D8BA592786DBB2435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D23B1F0E5070398A97DE45F /* Pods-QCM_Manager.debug.xcconfig */,
+				5CAABD2B87E1016BC1EA61A3 /* Pods-QCM_Manager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C2854EDCD45377A38011122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B563A8C72FF16C86F2C850D6 /* Pods_QCM_Manager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25FBF20A1C1C538D001C28A2 /* QCM_Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FBF2351C1C538E001C28A2 /* Build configuration list for PBXNativeTarget "QCM_Manager" */;
+			buildPhases = (
+				16CD0039753A3A0A5274785D /* Check Pods Manifest.lock */,
+				25FBF2071C1C538D001C28A2 /* Sources */,
+				25FBF2081C1C538D001C28A2 /* Frameworks */,
+				25FBF2091C1C538D001C28A2 /* Resources */,
+				52A3655435E27BCCC62B5C11 /* Embed Pods Frameworks */,
+				DB4F5BCC85626DF659738D65 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCM_Manager;
+			productName = QCM_Manager;
+			productReference = 25FBF20B1C1C538D001C28A2 /* QCM_Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25FBF2201C1C538D001C28A2 /* QCM_ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FBF2381C1C538E001C28A2 /* Build configuration list for PBXNativeTarget "QCM_ManagerTests" */;
+			buildPhases = (
+				25FBF21D1C1C538D001C28A2 /* Sources */,
+				25FBF21E1C1C538D001C28A2 /* Frameworks */,
+				25FBF21F1C1C538D001C28A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25FBF2231C1C538D001C28A2 /* PBXTargetDependency */,
+			);
+			name = QCM_ManagerTests;
+			productName = QCM_ManagerTests;
+			productReference = 25FBF2211C1C538D001C28A2 /* QCM_ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25FBF22B1C1C538E001C28A2 /* QCM_ManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FBF23B1C1C538E001C28A2 /* Build configuration list for PBXNativeTarget "QCM_ManagerUITests" */;
+			buildPhases = (
+				25FBF2281C1C538E001C28A2 /* Sources */,
+				25FBF2291C1C538E001C28A2 /* Frameworks */,
+				25FBF22A1C1C538E001C28A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25FBF22E1C1C538E001C28A2 /* PBXTargetDependency */,
+			);
+			name = QCM_ManagerUITests;
+			productName = QCM_ManagerUITests;
+			productReference = 25FBF22C1C1C538E001C28A2 /* QCM_ManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25FBF2031C1C538D001C28A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LinkValue;
+				TargetAttributes = {
+					25FBF20A1C1C538D001C28A2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = F8Z9YT6W9Z;
+					};
+					25FBF2201C1C538D001C28A2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = F8Z9YT6W9Z;
+						TestTargetID = 25FBF20A1C1C538D001C28A2;
+					};
+					25FBF22B1C1C538E001C28A2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = F8Z9YT6W9Z;
+						TestTargetID = 25FBF20A1C1C538D001C28A2;
+					};
+				};
+			};
+			buildConfigurationList = 25FBF2061C1C538D001C28A2 /* Build configuration list for PBXProject "QCM_Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25FBF2021C1C538D001C28A2;
+			productRefGroup = 25FBF20C1C1C538D001C28A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25FBF20A1C1C538D001C28A2 /* QCM_Manager */,
+				25FBF2201C1C538D001C28A2 /* QCM_ManagerTests */,
+				25FBF22B1C1C538E001C28A2 /* QCM_ManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25FBF2091C1C538D001C28A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FBF21B1C1C538D001C28A2 /* LaunchScreen.storyboard in Resources */,
+				25FBF2181C1C538D001C28A2 /* Assets.xcassets in Resources */,
+				25FBF2161C1C538D001C28A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FBF21F1C1C538D001C28A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FBF22A1C1C538E001C28A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16CD0039753A3A0A5274785D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52A3655435E27BCCC62B5C11 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QCM_Manager/Pods-QCM_Manager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB4F5BCC85626DF659738D65 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QCM_Manager/Pods-QCM_Manager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25FBF2071C1C538D001C28A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E7E73F1C2593B9006D0B5C /* ParseAccount.swift in Sources */,
+				25B56AC61C2574DF0034FB0A /* AccountMenuViewer.swift in Sources */,
+				25E7E73B1C258D55006D0B5C /* ParseAccountLogInViewer.swift in Sources */,
+				251E594E1C27268800EB40CA /* QCMMenuViewer.swift in Sources */,
+				25E7E73D1C258D6C006D0B5C /* ParseAccountSignUpViewer.swift in Sources */,
+				251E594B1C2725D200EB40CA /* QCMRouter.swift in Sources */,
+				251E59481C26DA0700EB40CA /* ViewController.swift in Sources */,
+				25FBF20F1C1C538D001C28A2 /* AppDelegate.swift in Sources */,
+				25E7E7391C257E18006D0B5C /* AccountConfiguration.swift in Sources */,
+				25E7E7371C257DA0006D0B5C /* ParseAccountRouter.swift in Sources */,
+				25E7E7351C257D75006D0B5C /* AccountRouter.swift in Sources */,
+				251E59461C26CDB100EB40CA /* LabelCell.swift in Sources */,
+				25B56ABE1C2571DE0034FB0A /* Account.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FBF21D1C1C538D001C28A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FBF2261C1C538D001C28A2 /* QCM_ManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FBF2281C1C538E001C28A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FBF2311C1C538E001C28A2 /* QCM_ManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25FBF2231C1C538D001C28A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25FBF20A1C1C538D001C28A2 /* QCM_Manager */;
+			targetProxy = 25FBF2221C1C538D001C28A2 /* PBXContainerItemProxy */;
+		};
+		25FBF22E1C1C538E001C28A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25FBF20A1C1C538D001C28A2 /* QCM_Manager */;
+			targetProxy = 25FBF22D1C1C538E001C28A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25FBF2141C1C538D001C28A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FBF2151C1C538D001C28A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25FBF2191C1C538D001C28A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FBF21A1C1C538D001C28A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25FBF2331C1C538E001C28A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		25FBF2341C1C538E001C28A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25FBF2361C1C538E001C28A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D23B1F0E5070398A97DE45F /* Pods-QCM_Manager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QCM_Manager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LinkValue.QCM-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25FBF2371C1C538E001C28A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CAABD2B87E1016BC1EA61A3 /* Pods-QCM_Manager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QCM_Manager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LinkValue.QCM-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25FBF2391C1C538E001C28A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QCM_ManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LinkValue.QCM-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QCM_Manager.app/QCM_Manager";
+			};
+			name = Debug;
+		};
+		25FBF23A1C1C538E001C28A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QCM_ManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LinkValue.QCM-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QCM_Manager.app/QCM_Manager";
+			};
+			name = Release;
+		};
+		25FBF23C1C1C538E001C28A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QCM_ManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LinkValue.QCM-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QCM_Manager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		25FBF23D1C1C538E001C28A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QCM_ManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LinkValue.QCM-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QCM_Manager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25FBF2061C1C538D001C28A2 /* Build configuration list for PBXProject "QCM_Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FBF2331C1C538E001C28A2 /* Debug */,
+				25FBF2341C1C538E001C28A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FBF2351C1C538E001C28A2 /* Build configuration list for PBXNativeTarget "QCM_Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FBF2361C1C538E001C28A2 /* Debug */,
+				25FBF2371C1C538E001C28A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FBF2381C1C538E001C28A2 /* Build configuration list for PBXNativeTarget "QCM_ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FBF2391C1C538E001C28A2 /* Debug */,
+				25FBF23A1C1C538E001C28A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FBF23B1C1C538E001C28A2 /* Build configuration list for PBXNativeTarget "QCM_ManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FBF23C1C1C538E001C28A2 /* Debug */,
+				25FBF23D1C1C538E001C28A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25FBF2031C1C538D001C28A2 /* Project object */;
+}
